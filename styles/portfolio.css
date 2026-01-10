@@ -1,0 +1,103 @@
+.portfolio {
+    padding: 6rem 8rem;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.portfolio-tag {
+    font-size: 1rem;
+    background: linear-gradient(90deg, #6a4cff, #ff2f92);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.portfolio-header h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.btn-gradient {
+    position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+.btn-gradient::after {
+    content: "";
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #4d34e3, #e93470);
+    z-index: -1;
+}
+.btn-gradient span {
+    background: #000;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 18rem;
+    gap: 1.5rem;
+}
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.portfolio-item.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.portfolio-item.tall {
+    grid-row: span 2;
+}
+.portfolio-item.wide {
+    grid-column: span 2;
+}
+.overlay {
+    position: absolute;
+    padding: 5rem;
+    display: flex;
+    inset: 0;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.overlay span {
+    font-size: 1rem;
+    background:linear-gradient(90deg,#b624ff, #ff4385);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.overlay h3 {
+    font-size: 2.5rem;
+    color: #ffd9d9;
+    margin-top: 0.5rem;
+
+}
+
+
+
