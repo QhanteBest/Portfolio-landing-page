@@ -1,0 +1,141 @@
+.testimonials-faq {
+    padding: 6rem 0;
+    background: #ffffff;
+}
+.testimonials {
+    text-align: center;
+}
+.tags {
+    background: linear-gradient(90deg, #6a4cff, #ff2f92);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.testimonials h2 {
+    font-size: 2.5rem;
+    color: #131313;
+    margin-bottom: 4rem;
+}
+.testimonial-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.testimonial-card {
+    flex: 1;
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: 1rem;
+    text-align: left;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.testimonial-card:hover {
+    transform: translateY(-0.8rem);
+    box-shadow: 0 1.5rem 3rem rgba(40, 39, 39, 0.6)
+}
+.testimonial-card.active:hover {
+    transform: translateY(-0.8rem);
+    box-shadow: 0 1.5rem 3rem rgba(40, 39, 39, 0.6)
+}
+.quote {
+    width: 1rem;
+    margin-bottom: 1.5rem;
+}
+.testimonial-card p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #090d23;
+}
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.user span {
+    flex: 1;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+.stars {
+    width: 4rem;
+}
+
+.faq-section {
+    padding: 6rem 10%;
+    background: #181818;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.faq-item {
+    background: #222121;
+    padding: 1.8rem 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #ffffff;
+}
+.faq-item::after {
+    content: "";
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    border-right: 0.125rem solid #ffffff;
+    border-bottom: 0.125rem solid #ffffff;
+    transform: rotate(45deg);
+    margin-left: 1rem;
+    opacity: 0.7;
+}
+.faq-item:hover {
+    background: #1a1a1a;
+}
+
+.faq-right {
+    flex: 1;
+    text-align: left;
+}
+.tagg {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.15;
+    margin-bottom: 1rem;
+    display: inline-block;
+    background: linear-gradient(90deg, #ff00ff, #7000ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.faq-right h3 {
+    line-height: 1.2;
+    margin: 0 0 2rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.faq-right p {
+    line-height: 1.6;
+    color: #aaaaaa;
+}
+
+.faq-left {
+    flex: 1;
+}
