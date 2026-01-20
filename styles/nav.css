@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1rem 1.5rem;
+    position: relative;
+    z-index: 100;
 }
 
 .logo {
@@ -25,6 +27,11 @@
     align-items: center;
     display: flex;
     padding-right: 10rem;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
 }
 
 .nav a {
