@@ -73,3 +73,105 @@
 .contact-btn:hover {
     background: linear-gradient(90deg,#6a4cff, #ff2f92 );
 }
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+
+    }
+    .logo {
+        padding-left: 0;
+        flex: 1;
+        font-size: 1.3rem;
+    }
+    .nav {
+        padding-right: 0;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 2.5rem;
+        border: 2px solid transparent;
+        border-radius: 0.5rem;
+        background: linear-gradient(#fff, #fff)
+        padding-box,
+        linear-gradient(90deg, #6a4cff, #ff2f92) border-box;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .hamburger {
+        font-size: 1.5rem;
+        background: linear-gradient(90deg, #6a4cff, #ff2f92);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    .close {
+        display: none;
+        font-size: 2rem;
+        background: linear-gradient(90deg, #6a4cff, #ff2f92);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    .menu-toggle.active .hamburger {
+        display: none;
+    }
+    .menu-toggle.active .close {
+        display: block;
+        margin-top: -0.2rem;
+    }
+    .nav-links {
+        display: none !important;
+        width: 100vw;
+        margin-left: -2rem;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+        gap: 1.5rem;
+    }
+    .nav a {
+        gap: 1rem;
+        font-size: 1.2rem;
+        background: linear-gradient(90deg, #f43366, #3c33ef);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: 800;
+
+    }
+    .nav.active .nav-links {
+        display: flex !important;
+        position: relative;
+    }
+    .contact-wrapper {
+        display: none;
+    }
+    .logo.hide {
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
