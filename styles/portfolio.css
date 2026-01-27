@@ -133,3 +133,63 @@
     color: #ffd9d9;
     margin: 0;
 }
+
+@media(max-width: 48rem) {
+    .portfolio {
+        padding: 3rem 1.5rem;
+    }
+    .portfolio-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .portfolio-header h2 {
+        font-size: 2.1rem;
+        line-height: 1.2;
+    }
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .portfolio-item,
+    .portfolio-item.big,
+    .portfolio-item.wide {
+        grid-column: span 1;
+        aspect-ratio: 16 / 10;
+    }
+    .portfolio-item img {
+        transform: scale(1.05);
+    }
+    .portfolio-item::before {
+        opacity: 1;
+    }
+    .overlay {
+        transform: translateY(0);
+        opacity: 1;
+        bottom: 1.2rem;
+        left: 1.2rem;
+    }
+    .overlay span {
+        font-size: 1rem;
+    }
+    .overlay h3 {
+        font-size: 1.8rem;
+        line-height: 1.1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
