@@ -9,6 +9,9 @@
     align-items: center;
     margin-bottom: 5rem;
 }
+.bloger-card {
+    display: none;
+}
 .blog-tag {
     font-size: 1rem;
     line-height: 0.2;
@@ -113,11 +116,13 @@
     color: #9c6bff;
 }
 
+
 @media(max-width: 768px) {
     .blog {
         padding: 5rem 1.5rem;
     }
     .blog-header {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
@@ -136,15 +141,19 @@
         grid-template-columns: 1fr;
         gap: 2.5rem;
     }
+    .blog-card:nth-child(n+3) {
+        display: none;
+    }
+    .blog-card:nth-child(2) img {
+        content: url("../images/T1.jpg");
+    }
     .blog-card {
-        transform: none;
-        box-shadow: none;
+        overflow: cover;
         animation: fadeUp 1s ease both;
     }
     .blog-card img {
         height: 16rem;
-        filter: grayscale(0%);
-        animation: imageZoom 1.2s ease both;
+        transform: scaleX(-1);
     }
     .meta {
         font-size: 1rem;

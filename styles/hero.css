@@ -46,7 +46,7 @@
     .hero-bold {
         display: none;
     }
-    .mobile-walker {
+    .mobile-Walker {
         display: block;
         font-size: 3rem !important;
         margin-top: -10rem;
@@ -138,7 +138,9 @@
 .hero-btn:hover {
     background: linear-gradient(90deg, #4d34e3, #e93470) ;
 }
-
+.mobile-walker {
+    display: none;
+}
 .hero-image {
     max-width: 50%;
 }

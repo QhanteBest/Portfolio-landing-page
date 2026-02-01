@@ -2,16 +2,19 @@
     .trusted {
         padding: 0 !important;
     }
-    .brands {
+    .TrustedImages {
         display: grid !important;
         grid-template-columns: repeat(3, 2fr);
-        gap: 0.5rem;
+        gap: 1.5rem;
         justify-content: center;
         align-items: center;
         padding: 0 1rem !important;
     }
-    .brands img {
-        max-width: 11.6rem;
+    .brands {
+        display: none !important;
+    }
+    .TrustedImages img {
+        max-width: 10.6rem;
         width: 100%;
         opacity: 0.8;
     }
@@ -31,7 +34,9 @@
     margin-bottom: 0.5rem;
     color: #12141d;
 }
-
+.TrustedImages {
+    display: none;
+}
 .brands {
     display: flex;
     flex-wrap: wrap;
