@@ -1,0 +1,75 @@
+@media(max-width: 768px) {
+    .trusted {
+        padding: 0 !important;
+    }
+    .TrustedImages {
+        display: grid !important;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem !important;
+    }
+    .brands {
+        display: none !important;
+    }
+    .TrustedImages img {
+        max-width: 10.6rem;
+        width: 100%;
+        opacity: 0.8;
+    }
+}
+
+
+.trusted {
+    padding: 4rem 2rem ;
+    text-align: center;
+}
+.trusted-title {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.06rem;
+    margin-bottom: 0.5rem;
+    color: #12141d;
+}
+.TrustedImages {
+    display: none;
+}
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+.brands img {
+    max-width: 11.6rem;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

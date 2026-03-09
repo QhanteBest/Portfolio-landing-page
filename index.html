@@ -3,9 +3,354 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio landing Page</title>
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/nav.css"/>
+    <link rel="stylesheet" href="./styles/hero.css"/>
+    <link rel="stylesheet" href="./styles/features.css"/>
+    <link rel="stylesheet" href="./styles/trusted.css"/>
+    <link rel="stylesheet" href="./styles/stats.css"/>
+    <link rel="stylesheet" href="./styles/portfolio.css"/>
+    <link rel="stylesheet" href="./styles/blog.css"/>
+    <link rel="stylesheet" href="./styles/testimonial.css"/>
+    <link rel="stylesheet" href="./styles/faq.css"/>
+    <link rel="stylesheet" href="./styles/footer.css"/>
 </head>
 <body>
-    
+    <!--Header-->
+    <header class="header">
+    <div class="logo">  
+        <span class="logo-gradient">XEST</span><br>  
+        <span class="logo-gradient">FOLIO</span></div>  
+    <nav class="nav">  
+        <div class="menu-toggle">  
+            <span class="hamburger">&#9776;</span>  
+            <span class="close">&times;</span>  
+        </div>
+        <ul class="nav-links">  
+            <li><a href="#">About</a></li>  
+            <li><a href="#">Service</a></li>  
+            <li><a href="#">Blogs</a></li>  
+            <li><a href="#">FAQ</a></li>  
+        </ul>  
+        <div class="contact-wrapper">  
+            <button class="contact-btn">Contact Me</button>  
+        </div>  
+    </nav>  
+</header>  
+
+<!--Hero Section-->  
+<main class="hero">  
+    <div class="hero-text">  
+    <h1>  
+        <span class="hero-gradient">MIAMI</span><br>  
+        <span class="hero-bold">WALKE<span class="hero-r">R</span></span>  
+    </h1>  
+    <h2 class="mobile-Walker">WALKER</h2>  
+    <p>  
+        Award Wining product designer based in Georgia. We<br>  
+        create user-friendly interfaces for fast-growing startups.  
+    </p>  
+    <button class="hero-btn">Book A Call</button>  
+    </div>  
+    <div class="hero-image">  
+        <img src="./images/unsplash.jpg" alt="unsplash"/>  
+    </div>  
+</main>  
+<!--Trusted By-->  
+<section class="trusted">  
+    <p class="trusted-title">Trusted By</p>  
+    <div class="brands">  
+        <img src="./images/paperz.png" alt="paperz">  
+        <img src="./images/dorfus.png" alt="dorfus">  
+        <img src="./images/martino.png" alt="martino">  
+        <img src="./images/square.png" alt="square">  
+        <img src="./images/gobona.png" alt="gobona">  
+    </div>
+    <div class="TrustedImages">
+        <img src="./images/dorfus.png" alt="paperz">
+        <img src="./images/martino.png" alt="dorfus">
+        <img src="./images/square.png" alt="martino">
+    </div>
+</section>
+
+
+    <!--Features Section-->
+    <section class="features">
+        <div class="container">
+            <!--Left content-->
+            <div class="features-text">
+                <span class="tag">FEATURES</span>
+                <h1>Giving Your Business<br>Some Great Ideas</h1>
+                <p>
+                    Every designer needs the right tools to do the perfect job.<br>
+                    Thankfully, we can do that. I design products that are more<br>
+                    than pretty. I make them shippable and usable.</p>
+                <a href="#" class="btn">Contact Us</a>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="./images/ux.png" alt="ux">
+                    <h3>UX Experience</h3>
+                    <p>I design products that are more than<br>pretty. I make them usable</p>
+                </div>
+                <div class="feature-card">
+                    <img src="./images/ui.png" alt="ui">
+                    <h3>UI Design</h3>
+                    <p>I design products that are more than<br>pretty. I make them usable.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="./images/product.png" alt="product">
+                    <h3>Product Analysis</h3>
+                    <p>I design products that are more than <br>pretty. I make them usable</p>
+                </div>
+                <div class="feature-card">
+                    <img src="./images/Products.png" alt="products">
+                    <h3>Product Design</h3>
+                    <p>I design products that are more than<br>pretty. I make them usable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Stats section-->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat">
+                <img src="./images/12K+.png" alt="12K+">
+                <p>Project Complete</p>
+            </div>
+            <div class="stat">
+                <img src="./images/7K+.png" alt="7K+">
+                <p>Happy Client</p>
+        </div>
+        <div class="stat">
+                <img src="./images/10+.png" alt="10K+">
+                <p>Years Experience</p>
+        </div>
+        <div class="stat">
+            <img src="./images/270+.png" alt="270k+">
+            <p>Win Awards</p>
+
+        </div>
+        </div>
+    </section>
+
+    <!--Portfolio section-->
+    <section class="portfolio">
+        <div class="portfolio-header">
+            <div>
+                <span class="portfolio-tag">PORTFOLIO</span>
+                <h2>Some Of Our Best Works</h2>
+            </div>
+            <button class="btn-gradient">
+                <span>Load More</span></button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item big">
+                <img src="./images/greenfy.jpg" alt="greenfy">
+                <div class="overlay">
+                    <span>UI DESIGN</span>
+                    <h3>Greenfy Website</h3>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./images/lap 1.png" alt="lap 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="./images/cam 1.png" alt="cam 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="./images/cam 2.png" alt="cam 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="./images/lap 2.png" alt="lap 2">
+            </div>
+            <div class="portfolio-item wide">
+                <img src="./images/lap 3.png" alt="lap 3">
+            </div>
+            <div class="portfolio-item wide">
+                <img src="./images/lap 4.png" alt="lap 4">
+            </div>
+            <div class="portfolio-item">
+                <img src="./images/lap 5.png" alt="lap 5">
+            </div>
+            <div class="portfolio-item">
+                <img src="./images/cam 3.png" alt="cam 3">
+            </div>
+        </div>
+    </section>
+
+    <!---Blog section-->
+    <section class="blog">
+        <div class="blog-header">
+            <div>
+                <span class="blog-tag">LATEST BLOG</span>
+                <h2>Check some of Latest<br>News & Articles</h2>
+            </div>
+            <button class="btn-gradients">
+                <span>Load More</span>
+            </button>
+        </div>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <img src="./images/T1.jpg" alt="T1" class="blog-main-img">
+                <div class="blog-content">
+                    <span class="meta">UI Design | 23 May 2023</span>
+                    <h3>What is UI Design in Front End Design?</h3>
+                    <p>But I must explain to you how all this mistaken idea of<br>
+                       denouncing pleasure and praising pain was born and I will<br>
+                       give you a complete account of the system</p>
+                       <a href="#">READ MORE →</a>
+                    </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/T2.jpg" alt="T2">
+                <div class="blog-content">
+                    <span class="meta">UI Design | 23 May 2023</span>
+                    <h3>What is UI Design in Front End Design?</h3>
+                    <p>But I must explain to you how all this mistaken idea of<br>
+                       denouncing pleasure and praising pain was born and I will<br>
+                       give you a complete account of the system</p>
+                       <a href="#">READ MORE →</a>
+                    </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/T3.jpg" alt="T3">
+                <div class="blog-content">
+                    <span class="meta">UI Design | 23 May 2023</span>
+                    <h3>What is UI Design in Front End Design?</h3>
+                    <p>But I must explain to you how all this mistaken idea of<br>
+                       denouncing pleasure and praising pain was born and I will<br>
+                       give you a complete account of the system</p>
+                       <a href="#">READ MORE →</a>
+                    </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/T4.jpg" alt="T4">
+                <div class="blog-content">
+                    <span class="meta">UI Design | 23 May 2023</span>
+                    <h3>What is UI Design in Front End Design?</h3>
+                    <p>But I must explain to you how all this mistaken idea of<br>
+                       denouncing pleasure and praising pain was born and I will<br>
+                       give you a complete account of the system</p>
+                       <a href="#">READ MORE →</a>
+                    </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/T5.jpg" alt="T5">
+                <div class="blog-content">
+                    <span class="meta">UI Design | 23 May 2023</span>
+                    <h3>What is UI Design in Front End Design?</h3>
+                    <p>But I must explain to you how all this mistaken idea of<br>
+                       denouncing pleasure and praising pain was born and I will<br>
+                       give you a complete account of the system</p>
+                       <a href="#">READ MORE →</a>
+                    </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/T6.jpg" alt="T6">
+                <div class="blog-content">
+                    <span class="meta">UI Design | 23 May 2023</span>
+                    <h3>What is UI Design in Front End Design?</h3>
+                    <p>But I must explain to you how all this mistaken idea of<br>
+                       denouncing pleasure and praising pain was born and I will<br>
+                       give you a complete account of the system</p>
+                       <a href="#">READ MORE →</a>
+                    </div>
+            </article>
+    </section>
+
+    <!--Testimonial section-->
+    <section class="testimonials-faq">
+        <div class="testimonials">
+            <span class="tags">TESTIMONIALS</span>
+            <h2>What our customer say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <img class="quote" src="./images/quote.png" alt="quote">
+                    <p>"Now, i can track my business activity with easier and<br>
+                        have a great understandable to operate the products"</p>
+                        <div class="user">
+                            <img class="avatar" src="./images/M1.png" alt="M1">
+                            <span>Berry Gunawan</span>
+                            <img class="stars" src="./images/star 1.png" alt="star 1">
+                        </div>
+                </div>
+                <div class="testimonial-card active">
+                    <img class="quote" src="./images/quotes.png" alt="quotes">
+                    <p>"Now, i can track my business activity with easier and<br>
+                        have a great understandable to operate the products"</p>
+                        <div class="user">
+                            <img class="avatar" src="./images/M2.png" alt="M2">
+                            <span>Janne Cooper</span>
+                            <img class="stars" src="./images/star 2.png" alt="star 2">
+                        </div>
+                </div>
+                <div class="testimonial-card">
+                    <img class="quote" src="./images/quotez.png" alt="quotez">
+                    <p>"Now, i can track my business activity with easier and<br>
+                        have a great understandable to operate the products"</p>
+                        <div class="user">
+                            <img class="avatar" src="./images/M3.png" alt="M3">
+                            <span>Cabocannaeru</span>
+                            <img class="stars" src="./images/star 3.png" alt="star 3">
+                        </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="FAQ-sections">
+        <div class="faqs">
+                <div class="faq-left">
+                    <div class="faq-item">How can we help your business?</div>
+                    <div class="faq-item">What are the advantages of Bisnext</div>
+                    <div class="faq-item">Let's find an office near you?</div>
+                    <div class="faq-item">How IT consultancy experts works?</div>
+                </div>
+                <div class="faq-right">
+                    <span class="tagg">FAQS</span>
+                    <h3>Be Kind to Your Mind<br>Question & Answer</h3>
+                    <p>
+                    All Your Qustions are in A document, in question and answer<br>
+                    format, that introduces newcomers to a topic or answers<br>
+                    common questions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer section-->
+    <section class="footer-section">
+        <div class="footer-content">
+            <span class="tagss">HAVE YOU PROJECT IN MIND?</span>
+            <h2>Let's Make Something<br>Great Together!</h2>
+            <div class="circle-container">
+                <a href="#">
+                    <img src="./images/oval.png" alt="oval" class="oval-img"></a>
+            </div>
+            <div class="brand-text">XEST<br>FOLIO</div>
+            <div class="socials-container">
+                <img src="./images/socials.png" alt="socials" class="socials-img"></div>
+        </div>
+        
+        <div class="footer-bottom-wrapper">
+            <hr class="footer-divider">
+            <div class="footer-copyright">
+                <p>© 2023 Idealpeel Inc. All Rights Reserved</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <span class="separator">|</span>
+                <a href="#">Terms and Conditions.</a>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>
